@@ -11,6 +11,7 @@ function App() {
       name={item.name}
       contact={item.contact}
       review={item.review}
+      openSpots={item.openSpots}
       />
     )
   })
