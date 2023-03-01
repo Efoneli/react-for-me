@@ -7,9 +7,10 @@ const Creams = (props) => {
     <div className='card'>
         <img src={props.img} alt='/'/>
         <h1>{props.name}</h1>
-        <div>
-            ☎️ {props.contact}
+        <div className='info-group'>
+        ☎️ {props.contact} <br />
         </div>
+        ⭐ {props.review}
     </div>
   )
 }
