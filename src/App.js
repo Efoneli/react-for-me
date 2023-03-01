@@ -6,6 +6,7 @@ function App() {
   const newData = data.map(item  => {
     return (
       <Creams 
+      key={item.id}
       img={item.img}
       name={item.name}
       contact={item.contact}
@@ -14,9 +15,9 @@ function App() {
     )
   })
   return (
-    <div className="main-app">
+    <section className="main-app">
       {newData}
-    </div>
+    </section>
   );
 }
 
